@@ -7,8 +7,10 @@ int main()
     std::cout << "you need to enter the correct codes to continue...";
 
     int a =  4;
-    int b = 3;
-    int c = 2;
+    const int b = 3;
+    const int c = 2;
+
+    a = 7;
 
     int sum = a + b + c;
     int product = a * b * c;
